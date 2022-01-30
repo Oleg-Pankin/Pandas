@@ -15,3 +15,4 @@ for something in res:
 #print(df[df['Sales']<2]['Name'])
 #print(df[df['Publisher']=='Electronic Arts']['Name'])
 #print(df[df['Release']=='Jun-09']['Name'])
+#df.groupby(by = 'Content Rating')['Rating'].mean()
