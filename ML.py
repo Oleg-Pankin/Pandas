@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score
-df = pd.read_csv('train.csv')
+df = pd.read_csv('train1.csv')
 df.drop('PassengerId',axis=1,inplace=True)
 df.drop('Name',axis=1,inplace=True)
 df.drop('Ticket',axis=1,inplace=True)
