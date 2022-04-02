@@ -19,7 +19,7 @@ def set_gender(value):
     else:
         return 0
 df['Sex']=df.apply(set_gender,axis=1)
-df([list(pd.get_dummies(df['Embarked']).columns)]=pd.get_dummies(df['Embarked'])
+df[list(pd.get_dummies(df['Embarked']).columns)]=pd.get_dummies(df['Embarked'])
 df.drop('Embarked', axis = 1,inplace = True)
 x = df.drop('Survived', axis = 1)
 y = df['Survived']
